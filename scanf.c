@@ -3,9 +3,9 @@
 
 // yeah working with scanf is great
 int main() {
-  char name[100];
-  printf("enter a name: ");
-  scanf("%s", name);
-  printf("your name is %s.", name);
+  char ex[20];
+  printf("enter your boyfiend name ");
+  scanf("%s", ex);
+  printf("dear %s. you're history. \n", e);
   return 0;
 }

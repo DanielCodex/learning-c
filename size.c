@@ -24,12 +24,12 @@ int main() {
 
   char test[] = "zed";
 
-  // for (int i = 0; i < length(test); ++i) {
-  //   printf("%c\n", test[i]);
-  //   if (test[i] == '\0'){
-  //     printf("%d\n", test[i]);
-  //     printf("we hit the null byte");
-  //   }
+  for (int i = 0; i < length(test); ++i) {
+    printf("%c\n", test[i]);
+    if (test[i] == '\0'){
+      printf("%d\n", test[i]);
+      printf("we hit the null byte");
+    }
   // }
 
   // printf("%d\n", length(test));

@@ -2,9 +2,11 @@
 #include <string.h>
 
 int main() {
-  int name[4] = {1};
+  int a = 15;
+  printf("%x \n", a);
+  // printf("%ld \n", sizeof(int));
 
-  printf("%c \n", name[1]);
-
+  char another[] = "daniel hemmati";
+  printf("%s\n", another);
   return 0;
 }

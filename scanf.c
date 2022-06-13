@@ -6,6 +6,6 @@ int main() {
   char ex[20];
   printf("enter your boyfiend name ");
   scanf("%s", ex);
-  printf("dear %s. you're history. \n", e);
+  printf("dear %s. you're history. \n", ex);
   return 0;
 }

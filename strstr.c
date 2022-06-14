@@ -21,22 +21,3 @@ int main() {
   return 0;
 }
 
-
-void make_upper(char *s) {
-  int length = strlen(s);
-
-  for (int i = 0; i < length; ++i) {
-    s[i] = toupper(s[i]);
-  }
-  printf("%s\n", s);
-}
-
-void make_lower(char *s){
-  int length = strlen(s);
-
-  for (int i = 0; i < length; ++i){
-    s[i] = tolower(s[i]);
-  }
-
-  return s;
-}

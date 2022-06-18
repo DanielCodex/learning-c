@@ -6,6 +6,10 @@ int main() {
   scanf("%i", &x);
   printf("you entered the value %i\n", x);
 
+  // if we use char
+  char info[100];
+  scanf("%s", info);
+  printf("you said that %s\n", info);
 
   return 0;
 }

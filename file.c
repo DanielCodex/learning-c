@@ -6,11 +6,12 @@ int main() {
   char str[20];
 
   FILE *fptr = fopen("daniel.txt", "w");
-  printf("fptr=%d\n", fptr);
   if (fptr == NULL) {
     printf("Could not open file");
     return 0;
   }
+
+  
 
   for (int i = 0; i < n; i++) {
     puts("Enter a name");

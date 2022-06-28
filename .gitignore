@@ -1,4 +1,6 @@
 # Can you ignore all, but source code files?
 *
 !*.c
+!chapter6/
+!chapter7/
 !Makefile
